@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Page Title</title>
+		<title>Jackson Hagan</title>
 		<meta name="description" content="My portfolio">
 		
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:100&display=swap" rel="stylesheet">
@@ -14,11 +14,19 @@
 		
 		<script src="js/jquery-3.4.1.min.js"></script>  
 		<script src="js/bootstrap.min.js"></script>  
-		
 		<style>
-			
+		html {
+  scroll-behavior: smooth;
+}
+		.me{
+	background: #24252a url(image/background.png)no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
 		</style>
-		
 	</head>
 	<body>
 		<nav class="navbar navbar-default" role="navigation">
@@ -26,10 +34,10 @@
 				<div class="navbar-header"> 
 				</div>
 				<ul>
-					<li><a href="#portfolio">Home</a></li>
+					<li><a href="index.html">Home</a></li>
 					<li><a href="#portfolio">Portfolio</a></li>
 					<li><a href="#contact">Contact</a></li>
-					<li><a href="https://github.com/Hagan103"><i class="fab fa-github fa-2x"></i></a></li>					
+				<!--<li><a href="https://github.com/Hagan103"><i class="fab fa-github fa-2x"></i></a></li>	-->			
 				</ul>
 				<div class="collapse navbar-collapse" id="navbar-collapse-1">
 					
@@ -63,10 +71,10 @@
 				</div>
 				<div class="row text-center">
 					<div class="col-xs-4">
-						<button class="btn-5 me-button"><span><i class="fab fa-github fa-1x"></i> 	&nbsp;GITHUB</span></button>
+						<button class="btn-5 me-button" onclick="window.open('https://github.com/Hagan103');"><span><i class="fab fa-github fa-1x"></i> 	&nbsp;GITHUB</span></button>
 					</div>
 					<div class="col-xs-4">
-						<button class="btn-5 me-button"><span>RESUME</span></button>
+						<button class="btn-5 me-button" onclick="window.open('jacksonhagan-resume.pdf');"><span>RESUME</span></button>
 					</div>
 				</div>
 			</div>
@@ -87,10 +95,10 @@
 		<div class="row centered no-gutters">
 		
 			<div class="col-sm-6 c1 gallery-article wow fadeInUp" >
-					<a href = "#" class = "column col-xs-6" id = "grayscale">
+					<a href = "projects/toribashtextures.html" class = "column col-xs-6" id = "grayscale">
 				<div class="project-content">
 					<h2 class="project-title">ToribashTexture</h2>
-					<h3 class="project-category">Gallery</h3>
+					<h3 class="project-category">UX/UI Design, Full stack</h3>
 					
 				</div>
 				<div class="inner-shadow"></div>
@@ -98,29 +106,29 @@
 			</div>		
 			
 			<div class="col-sm-6 c1 gallery-article wow fadeInUp" data-wow-delay="0.1s">
-			<a href = "#" class = "column col-xs-6" id = "grayscale">
+			<a href = "projects/moderninvestor.html" class = "column col-xs-6" id = "grayscale">
 				<div class="project-content">
 					<h2 class="project-title">Modern Investors</h2>
-					<h3 class="project-category"></h3>
+					<h3 class="project-category">Full stack</h3>
 					
 				</div>
 				<div class="inner-shadow"></div>
 				<img class="piece" src="image/modern-investor.png" alt="img"></a>
 			</div>
 			
-			<div class="col-sm-6 col-lg-4 c1 gallery-article wow fadeInUp"><a href="#">
+			<div class="col-sm-6 col-lg-4 c1 gallery-article wow fadeInUp"><a href="projects/toribashtextures.html"">
 				<div class="project-content">
 					<h2 class="project-title">Toribash Forum</h2>
-					<h3 class="project-category">Web Forum</h3>
+					<h3 class="project-category">UX/UI Design,Front End</h3>
 					
 				</div>
 				<div class="inner-shadow"></div>
-				<a href = "#" class = "column col-xs-6" id = "grayscale"><img class="piece" src="image/toribash-forum.png" alt="img"></a>
+				<a href ="" class = "column col-xs-6" id = "grayscale"><img class="piece" src="image/toribash-forum.png" alt="img"></a>
 			</a></div>
 			<div class="col-sm-6 col-lg-4 c1 gallery-article wow fadeInUp" data-wow-delay="0.1s"><a href="#">
 				<div class="project-content">
 					<h2 class="project-title">Toribash Interface</h2>
-					<h3 class="project-category">ux/ui Design</h3>
+					<h3 class="project-category">UX/UI Design</h3>
 					
 				</div>
 				<div class="inner-shadow"></div>
@@ -129,42 +137,13 @@
 			<div class="col-sm-6 col-lg-4 c1 gallery-article wow fadeInUp" data-wow-delay="0.2s"><a href="#">
 				<div class="project-content">
 					<h2 class="project-title">TafeSA Room Navigation</h2>
-					<h3 class="project-category">Classroom navigation application</h3>
+					<h3 class="project-category">programmer</h3>
 					
 				</div>
 				<div class="inner-shadow"></div>
 				<a href = "#" class = "column col-xs-6" id = "grayscale"><img class="piece" src="image/tafe-room-nav.png" alt="img"></a>
 			</a></div>
-			<div class="col-sm-6 col-lg-4 c1 gallery-article wow fadeInUp"><a href="#">
-				<div class="project-content">
-					<h2 class="project-title">Toribash Clan League</h2>
-					<h3 class="project-category">Promo Art Piece</h3>
-					
-				</div>
-				<div class="inner-shadow"></div>
-				<a href = "#" class = "column col-xs-6" id = "grayscale"><img class="piece" src="image/toribash-seasion6.png" alt="img"></a>
-			</a></div>
-			<div class="col-sm-6 col-lg-4 c1 gallery-article wow fadeInUp" data-wow-delay="0.1s"><a href="#">
-				<div class="project-content">
-					<h2 class="project-title">Toribash Clan League</h2>
-					<h3 class="project-category">Promo Art Piece</h3>
-					
-				</div>
-				<div class="inner-shadow"></div>
-				<a href = "#" class = "column col-xs-6" id = "grayscale"><img class="piece" src="image/toribash-seasion6.png" alt="img"></a>
-			</a></div>
-			<div class="col-sm-6 col-lg-4 c1 gallery-article wow fadeInUp" data-wow-delay="0.2s"><a href="#">
-				<div class="project-content">
-					<h2 class="project-title">Toribash Clan League</h2>
-					<h3 class="project-category">Promo Art Piece</h3>
-					
-				</div>
-				<div class="inner-shadow"></div>
-				<a href = "#" class = "column col-xs-6" id = "grayscale"><img class="piece" src="image/toribash-seasion6.png" alt="img"></a>
-			</a></div>
-			
-			
-			
+
 		</div>
 		<hr>
 		
@@ -177,10 +156,10 @@
 					
 				</div>
 				<div class="inner-shadow"></div>
-				<a href = "#" class = "column col-xs-6" id = "grayscale"><img class="piece" src="image/clan-league-2019.png" alt="img"></a>
+				<a class = "column col-xs-6" id = "grayscale"><img class="piece" src="image/clan-league-2019.png" alt="img"></a>
 				</div>		<div class="col-sm-6 c1 gallery-article wow fadeInUp" data-wow-delay="0.02s">
 				<div class="project-content">
-					<h2 class="project-title">Toribash Clan League</h2>
+					<h2 class="project-title">Toribash Season 6</h2>
 					<h3 class="project-category">Promo Art Piece</h3>
 					
 				</div>
@@ -189,7 +168,7 @@
 			</div>
 			<div class="col-sm-6 col-lg-4 c1 gallery-article wow fadeInUp" data-wow-delay="0.1s"><a href="#">
 				<div class="project-content">
-					<h2 class="project-title">Toribash Clan League</h2>
+					<h2 class="project-title">Toribash Merchandise</h2>
 					<h3 class="project-category">Promo Art Piece</h3>
 					
 				</div>
@@ -198,7 +177,7 @@
 			</a></div>
 			<div class="col-sm-6 col-lg-4 c1 gallery-article wow fadeInUp" data-wow-delay="0.2s"><a href="#">
 				<div class="project-content">
-					<h2 class="project-title">Toribash Clan League</h2>
+					<h2 class="project-title">Toribash World Championships</h2>
 					<h3 class="project-category">Promo Art Piece</h3>
 					
 				</div>
@@ -207,7 +186,7 @@
 			</a></div>
 			<div class="col-sm-6 col-lg-4 c1 gallery-article wow fadeInUp" data-wow-delay="0s"><a href="#">
 				<div class="project-content">
-					<h2 class="project-title">Toribash Clan League</h2>
+					<h2 class="project-title">Nasa Space Apps Challenge</h2>
 					<h3 class="project-category">Promo Art Piece</h3>
 					
 				</div>
@@ -216,7 +195,7 @@
 			</a></div>
 			<div class="col-sm-6 col-lg-4 c1 gallery-article wow fadeInUp" data-wow-delay="0.1s"><a href="#">
 				<div class="project-content">
-					<h2 class="project-title">Toribash Clan League</h2>
+					<h2 class="project-title">Toribash Season 4</h2>
 					<h3 class="project-category">Promo Art Piece</h3>
 					
 				</div>
@@ -225,8 +204,8 @@
 			</a></div>
 			<div class="col-sm-6 col-lg-4 c1 gallery-article wow fadeInUp" data-wow-delay="0.2s"><a href="#">
 				<div class="project-content">
-					<h2 class="project-title">Toribash Clan League</h2>
-					<h3 class="project-category">Promo Art Piece</h3>
+					<h2 class="project-title">Toribash Ranked Icons</h2>
+					<h3 class="project-category"></h3>
 					
 				</div>
 				<div class="inner-shadow"></div>

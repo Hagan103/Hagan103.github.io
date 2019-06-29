@@ -51,7 +51,7 @@ body {
 }
 
 .navbar li a{
-  position: relative;
+	position: relative;
 }
 .navbar li a:after{
     content: '' ; 
@@ -62,33 +62,33 @@ body {
     transition: all 0.2s ease-in-out;
     left: 20%;
     width: 0;
-  text-align:center;
-
+	text-align:center;
+	
 }
 .navbar li a:hover:after{
     margin: auto;
     width: 60%;
-	  text-align:center;
-
+	text-align:center;
+	
 }
 
 //------- {{ effect-3 }} -------//
 
 .effect-3 {
-  display: inline-block;
-  padding-top: 10px;
-  padding-bottom: 5px;
-  overflow: hidden;
-  &:before {
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	overflow: hidden;
+	&:before {
     left: 0;
     bottom: 0;
     width: 100%;
     height: 2px;
     transform:  translateX(-100%);
-  }
-  &:hover:before {
+}
+&:hover:before {
     transform:  translateX(0);
-  }
+}
 }
 
 
@@ -121,7 +121,7 @@ body {
 .gallery{
 	z-index:999999999999;
 }
- h1{
+h1{
 	font-family:Cera-Pro-Black;
 	color: #383b3f;
 	font-size:3.5em;
@@ -142,7 +142,7 @@ body {
 	font-family: 'Helvetica-Light', 'Arial', sans-serif;
 	opacity:0;
 	transition: 0.5s;     
-
+	
 }
 .gallery .project-content .project-category{
 	text-transform: uppercase;
@@ -175,7 +175,7 @@ body {
 	-webkit-animation: filter-animation 1s;
 }
 .col-sm-6:hover .project-content, .col-sm-6:hover .inner-shadow {
-opacity: 1
+	opacity: 1
 }
 @-webkit-keyframes filter-animation {
 	0% {
@@ -194,69 +194,69 @@ body, .name-container, .sentence h1 {
 }
 /* Button */
 button{
-  display: inline-block;
-  position: relative;
-  background: none;
-  border: none;
-  color: #fff;
-  font-size: 18px;
-  cursor: pointer;
-padding:16px 70px;
+	display: inline-block;
+	position: relative;
+	background: none;
+	border: none;
+	color: #fff;
+	font-size: 18px;
+	cursor: pointer;
+	padding:16px 70px;
   	font-family: 'Montserrat', sans-serif;
 	font-weight:800;
- box-sizing: border-box;
- min-width:150px;
-   
-box-shadow: 0px 10px 36px -9px rgba(15,12,22,1),  0px 10px 36px -9px rgba(0,0,0,1);
-
+	box-sizing: border-box;
+	min-width:150px;
+	
+	box-shadow: 0px 10px 36px -9px rgba(15,12,22,1),  0px 10px 36px -9px rgba(0,0,0,1);
+	
 }
 button::before, button::after{
-  content:"";
-  width: 0;
-  height: 1px;
-  position: absolute;
-  transition: all 0.1s linear;
-  background: #fff;
+	content:"";
+	width: 0;
+	height: 1px;
+	position: absolute;
+	transition: all 0.1s linear;
+	background: #fff;
 }
 
 span::before, span::after{
-  content:"";
-  width:1px;
-  height:0;
-  position: absolute;
-  transition: all 0.1s linear;
-  background: #fff;
+	content:"";
+	width:1px;
+	height:0;
+	position: absolute;
+	transition: all 0.1s linear;
+	background: #fff;
 }
 button:hover::before, button:hover::after{
-  width: 100%;
+	width: 100%;
 }
 button:hover span::before, button:hover span::after{
-  height: 100%;
-  
+	height: 100%;
+	
 }
 /*----- button 5 -----*/
 .me-button{
-	  margin: 60px 30px;
+	margin: 60px 30px;
 }
 .btn-5::after{
-  left:0;
-  bottom: 0;
-  transition-duration: 0.2s;
+	left:0;
+	bottom: 0;
+	transition-duration: 0.2s;
 }
 .btn-5 span::after{
-  right:0;
-  top: 0;
-  transition-duration: 0.2s;
+	right:0;
+	top: 0;
+	transition-duration: 0.2s;
 }
 .btn-5::before{
-  right: 0;
-  top: 0;
-  transition-duration: 0.2s;
+	right: 0;
+	top: 0;
+	transition-duration: 0.2s;
 }
 .btn-5 span::before{
-  left: 0;
-  bottom: 0;
-  transition-duration: 0.2s;
+	left: 0;
+	bottom: 0;
+	transition-duration: 0.2s;
 }
 
 .me{
@@ -308,7 +308,7 @@ button:hover span::before, button:hover span::after{
 	line-height: -200px;
 	margin: auto;
 	margin:0;
- 
+	
 }
 .sentence h1, .name-shadow h1{
 	margin: auto;
@@ -352,7 +352,7 @@ button:hover span::before, button:hover span::after{
 	width:100%;
 }
 .project-article .container{
-	padding-top:7rem;
+	padding-top:10rem;
 	padding-bottom:7rem;
 }
 .project-header{
@@ -387,7 +387,7 @@ hr{
 	margin-top:25px;
 	padding-top:55px;
 	padding-bottom:120px;
-		background:#24252a;
+	background:#24252a;
 	background:url(../image/background.png)no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -431,8 +431,8 @@ input:focus {
     transition: 0.2s ease all;
     -moz-transition: 0.2s ease all;
     -webkit-transition: 0.2s ease all;
-		font-family: 'Montserrat', sans-serif;
-
+	font-family: 'Montserrat', sans-serif;
+	
 }
 /* active state */
 
@@ -537,29 +537,29 @@ input:focus ~ .highlight {
 @-webkit-keyframes inputHighlighter {
     from {
         background: #fff;
-    }
+	}
     to {
         width: 0;
         background: transparent;
-    }
+	}
 }
 @-moz-keyframes inputHighlighter {
     from {
         background: #fff;
-    }
+	}
     to {
         width: 0;
         background: transparent;
-    }
+	}
 }
 @keyframes inputHighlighter {
     from {
         background: #fff;
-    }
+	}
     to {
         width: 0;
         background: transparent;
-    }
+	}
 }
 
 @media (max-width: 1453px) {
@@ -588,6 +588,9 @@ input:focus ~ .highlight {
 		padding:0;
 		min-width: 100%;
 	}
+	.me-button{
+	  padding: 15px 2px;
+}
 	.gallery-article{
 		padding:0px !important;
 	}
@@ -595,13 +598,13 @@ input:focus ~ .highlight {
 		height:100%;
 		width:100%;
 		bottom:0;
-		}
-		.sentence{
-				font-size: 0.8em;
-
-			}
-			.name-shadow{
-								font-size: 0.8em;
-
-				}
+	}
+	.sentence{
+		font-size: 0.8em;
+		
+	}
+	.name-shadow{
+		font-size: 0.8em;
+		
+	}
 }

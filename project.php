@@ -11,7 +11,7 @@
 
 		<link href="css/portfolio.css" rel="stylesheet">
 
-		
+		  
 		<script src="js/jquery-3.4.1.min.js"></script>  
 		<script src="js/bootstrap.min.js"></script>  
 		
@@ -48,8 +48,6 @@
   <li><a href="#home">Home</a></li>
     <li><a href="#about">Portfolio</a></li>
   <li><a href="#contact">Contact</a></li>
-  	    <li><a href="#github"><i class="fab fa-github fa-2x"></i></a></li>
-  	    <li><a href="#github"><i class="fab fa-codepen fa-2x"></i></a></li>
 
 </ul>
     <!-- Collect the nav links, forms, and other content for toggling -->
