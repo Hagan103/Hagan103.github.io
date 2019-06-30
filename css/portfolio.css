@@ -272,7 +272,7 @@ button:hover span::before, button:hover span::after{
 .me-about{
 	padding-top:9vw;
 	height:100vh;
-	min-height:600px;
+	min-height:680px;
 	display: flex 
 }
 .me-about>div{
