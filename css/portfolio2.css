@@ -192,6 +192,10 @@ body, .name-container, .sentence h1 {
 	transform-style: preserve-3d;
 	perspective: 30em;
 }
+.me-buttons{
+	padding-top:3rem;
+	
+}
 /* Button */
 button{
 	display: inline-block;
@@ -270,9 +274,7 @@ button:hover span::before, button:hover span::after{
 	
 }
 .me-about{
-	padding-top:9rem;
 	height:100vh;
-	min-height:800px;
 	display: flex 
 }
 .me-about>div{
@@ -310,7 +312,6 @@ button:hover span::before, button:hover span::after{
 	line-height: -200px;
 	margin: auto;
 	margin:0;
-	
 }
 .sentence h1, .name-shadow h1{
 	margin: auto;
@@ -606,7 +607,7 @@ input:focus ~ .highlight {
 		font-size: calc(1vw + 0.4em);
 	}
 	.name-shadow{
-		font-size: calc(0.5vw + 0.5em);
+		font-size: 1.4em;
 		
 	}
 	.navbar li a {
@@ -621,5 +622,10 @@ h1{
 	font-size:8vw;
 	padding-top:30px;
 	padding-bottom:30px;
+}
+.intro h2, .about h2{
+	
+		font-size: calc(1vw + 1em);
+
 }
 	}
