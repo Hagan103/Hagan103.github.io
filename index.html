@@ -277,12 +277,12 @@
 		$(window).on('load resize', function () {
 			if ($(window).height() < 750) {
 				$('.name-shadow').hide();
-			}else{
-							$('.name-shadow').show();
-
+				}else{
+				$('.name-shadow').show();
+				
 			}
 		});
-
+		
 		const shadow = document.querySelector('.name-shadow h1')
 		const sentence = document.querySelector('.sentence')
 		const me = document.querySelector('.me')
@@ -313,20 +313,20 @@
 			let ty= ay  * 10;
 			
 			
-			let stx = (shadowax *-1) * 7;
-			let sty= shadoway  * 7;
+		let stx = (shadowax *-1) * 7;
+		let sty= shadoway  * 7;
+		
+		
+		if ($('.me-about:hover, .navbar:hover').length != 0) {
+			console.log("over");
+			shadow.style.transform = `translateZ(0px) translateX(${stx}px) translateY(${sty}px)    `
 			
-			
-			if ($('.me-about:hover, .navbar:hover').length != 0) {
-				console.log("over");
-				shadow.style.transform = `translateZ(0px) translateX(${stx}px) translateY(${sty}px)    `
-				
-				sentence.style.transform = `translateZ(0px) translateX(${tx}px) translateY(${ty}px) rotateY(${ax}deg) rotateX(${ay}deg)`
-			}			
-			
+			sentence.style.transform = `translateZ(0px) translateX(${tx}px) translateY(${ty}px) rotateY(${ax}deg) rotateX(${ay}deg)`
+		}			
+		
 		})
-	
-			
-		</script>
-	</body>
+		
+		
+	</script>
+</body>
 </html>

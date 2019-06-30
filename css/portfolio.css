@@ -270,10 +270,9 @@ button:hover span::before, button:hover span::after{
 	
 }
 .me-about{
-	padding-top:9vw;
 	height:100vh;
 	min-height:680px;
-	display: flex 
+	padding-top:10rem;
 }
 .me-about>div{
 	width: 100%;
@@ -281,6 +280,10 @@ button:hover span::before, button:hover span::after{
 	flex-direction: column;
 	align-items: center;
 	margin: auto;
+    text-align: center;
+    position: relative;
+      top: 50%;
+      transform: translateY(-50%);
 }
 .intro, .about{
 }
@@ -615,11 +618,9 @@ input:focus ~ .highlight {
 	padding-right: 4vw;
 	font-size: 0.9em;
 	}
-h1{
-	font-family:Cera-Pro-Black;
-	color: #383b3f;
-	font-size:8vw;
-	padding-top:30px;
-	padding-bottom:30px;
+
+h2{
+		font-size: calc(1vw + 1em) !important;
+
 }
 	}
